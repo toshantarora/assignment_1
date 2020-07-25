@@ -1,0 +1,535 @@
+body {
+  margin: 0;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 375px;
+  height: 850px;
+  background-color: #f8f9f9;
+  margin: auto;
+  margin-top: 15px;
+  border: 1px solid gainsboro;
+}
+.container_2 {
+  display: flex;
+  width: 375px;
+  height: 44px;
+  /* background-color: aqua; */
+  flex-direction: row;
+}
+.container_2 > .box {
+  width: 54px;
+  height: 25px;
+  margin-top: 7px;
+  margin-left: 21px;
+  margin-bottom: 12px;
+}
+.container_2 > .box > .time {
+  width: 54px;
+  height: 18px;
+  font-family: SFProText;
+  font-size: 15px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.3px;
+  text-align: center;
+  color: #042c5c;
+  margin-top: 7px;
+  /* background-color: white; */
+}
+.container_2 > .cellular-connection {
+  width: 17px;
+  height: 10.7px;
+  /* background-color: #042c5c; */
+  margin-left: 219px;
+  margin-top: 17.7px;
+  margin-bottom: 15.7px;
+}
+.container_2 > .Wi_fi {
+  width: 15.3px;
+  height: 11px;
+  /* background-color: #042c5c; */
+  margin-left: 7px;
+  margin-top: 17.3px;
+  margin-bottom: 15.7px;
+}
+.container_2 > .battery {
+  width: 22px;
+  height: 11px;
+  margin-top: 21px;
+  margin-left: 10px;
+}
+.battery > .fa-battery-three-quarters {
+  width: 18px;
+  height: 19px;
+  border-radius: 1.3px;
+}
+
+.container_3 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 24px;
+  max-width: 375px;
+  height: 28px;
+  /* background-color: blue; */
+}
+.container_3 > .Expenses {
+  width: 93px;
+  height: 28px;
+  font-family: Avenir;
+  font-size: 20px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: 0.39px;
+  color: #042c5c;
+  margin-left: 24px;
+}
+.container_4 {
+  display: flex;
+  flex-direction: row;
+  width: 375px;
+  height: 18px;
+  /* background-color: orange; */
+  margin-top: 32px;
+}
+.container_4 > .Card-Balance {
+  width: 81px;
+  height: 18px;
+  font-family: Avenir;
+  font-size: 13px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.1px;
+  color: #77869e;
+  margin-left: 24px;
+}
+
+.container_4 > .Rectangle {
+  width: 22px;
+  height: 22px;
+  border-radius: 6px;
+  background-color: #e2f2eb;
+  margin-left: 171px;
+  position: relative;
+}
+.Rectangle > span {
+  position: absolute;
+  margin: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: #1bc773;
+}
+.container_4 > .price {
+  width: 41px;
+  height: 16px;
+  font-family: Avenir;
+  font-size: 12px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.3px;
+  color: #1bc773;
+  margin-left: 12px;
+  margin-right: 24px;
+  text-align: center;
+  margin-top: 3px;
+}
+
+.container > .container_5 {
+  display: flex;
+  flex-direction: row;
+  width: 375px;
+  height: 41px;
+  /* background-color: aqua; */
+  margin-top: 4px;
+}
+.container_5 > .price_2 {
+  width: 103px;
+  height: 41px;
+  font-family: Avenir;
+  font-size: 30px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.85px;
+  color: #042c5c;
+  margin-left: 24px;
+}
+.container_5 > .Rectangle_2 {
+  width: 22px;
+  height: 22px;
+  border-radius: 6px;
+  background-color: #f6e6e7;
+  margin-left: 150px;
+  margin-top: 8px;
+  position: relative;
+}
+.Rectangle_2 > span {
+  position: absolute;
+  margin: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: #f24750;
+}
+.container_5 > .price_3 {
+  width: 41px;
+  height: 16px;
+  font-family: Avenir;
+  font-size: 12px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.3px;
+  color: #f24750;
+  margin-top: 13px;
+  margin-left: 12px;
+}
+.container > .container_6 {
+  display: flex;
+  flex-direction: row;
+  width: 375px;
+  height: 32px;
+  /* background-color: aqua; */
+  margin-top: 24px;
+}
+.container > .container_6 > .select {
+  width: 101px;
+  height: 32px;
+  border-radius: 18.5px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.05);
+  background-color: #ffffff;
+  margin-left: 24px;
+  padding: 7px 15px;
+  color: #77869e;
+}
+
+.container > .container_6 > .select :focus,
+.select :hover {
+  background-color: #dad7d7;
+  outline: none;
+  border: 1px solid wheat;
+}
+.container > .container_6 > .select > option {
+  /* text-align: center;
+  width: 51px;
+  height: 18px;
+  font-family: Avenir;
+  font-size: 13px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.11px;
+  color: #77869e;
+  padding: 7px, 34px, 7px, 16px; */
+}
+.container > .container_6 > .Jan {
+  width: 22px;
+  height: 18px;
+  font-family: Avenir;
+  font-size: 13px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.11px;
+  color: #0047cc;
+  margin-top: 8px;
+  margin-bottom: 7px;
+  padding: 1px;
+}
+.container_6 > .janRectangle {
+  width: 38px;
+  height: 32px;
+  border-radius: 6px;
+  background-color: #dfe7f5;
+  margin-left: 32px;
+}
+
+.container > .container_6 > .Feb {
+  width: 23px;
+  height: 18px;
+  font-family: Avenir;
+  font-size: 13px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.11px;
+  color: #77869e;
+  margin-left: 22px;
+  margin-top: 8px;
+}
+
+.container > .container_6 > .Mar {
+  width: 24px;
+  height: 18px;
+  font-family: Avenir;
+  font-size: 13px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.11px;
+  margin-left: 22px;
+  margin-top: 8px;
+  color: #77869e;
+}
+.container > .container_6 > .Apr {
+  width: 23px;
+  height: 18px;
+  font-family: Avenir;
+  font-size: 13px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.11px;
+  margin-left: 22px;
+  margin-top: 8px;
+  color: #77869e;
+}
+.container > .container_6 > .May {
+  width: 22px;
+  height: 18px;
+  font-family: Avenir;
+  font-size: 13px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.11px;
+  margin-left: 22px;
+  margin-top: 8px;
+  color: #77869e;
+}
+
+canvas {
+  width: 375px;
+  height: 285px;
+  /* opacity: 0.2; */
+  margin-top: 18px;
+  /* background-color:gray; */
+  /* background-image: linear-gradient(
+    to top,
+    rgba(94, 206, 177, 0),
+    rgba(94, 206, 177, 0.11) 69%,
+    rgba(94, 206, 177, 0.16) 51%,
+    rgba(94, 206, 177, 0.49) 14%
+  ); */
+}
+
+/*  */
+.numbers > ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  color: #77869e;
+  justify-content: space-around;
+
+  margin-right: 18px;
+}
+.container > .spending
+{
+  display:flex;
+ flex-direction: row;
+  width: 375px;
+  height: 27px;
+  
+  margin-top: 32px;
+  
+}
+.container >  .spending-breakdown
+{
+  width: 210px;
+  height: 27px;
+  font-family: Avenir;
+  font-size: 20px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: 0.39px;
+  color: #042c5c;
+  margin-left: 24px;
+}
+
+.container > .container_7
+{
+  display: flex;
+  flex-direction: row;
+  width: 327px;
+  height: 56px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.05);
+  background-color: #ffffff;
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-top: 16px;
+}
+
+.container > .container_7 > .rectangle_5
+{
+   width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: #ff7e87;
+  margin-top: 8px;
+  margin-left: 8px;
+  position: relative;
+  margin-bottom: 8px;
+}
+.container > .container_7 > .rectangle_5 > .shape
+{
+ width: 16px;
+  height: 16px;
+  color: #ffffff;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.container > .container_7 > .Shopping
+{
+  width: 154px;
+  height: 22px;
+  font-family: Avenir;
+  font-size: 16px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.4px;
+  color: #042c5c;
+  margin-left: 17px;
+  margin-top: 8px;
+  position: relative;
+}
+.container_7 > .Monday-January
+{
+  width: 120px;
+  height: 18px;
+  font-family: Avenir-Roman;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.27px;
+  color: #77869e;
+  position:absolute;
+  margin-top: 30px;
+  margin-left: 65px;
+} 
+.container_7 > .price_27 {
+  width: 75px;
+  height: 22px;
+  font-family: Avenir;
+  font-size: 16px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.4px;
+  color: #ee5a55;
+  margin-top: 17px;
+  margin-bottom: 17px;
+  /* margin-right:24px; */
+}
+
+.container > .container_8
+{
+  display: flex;
+  flex-direction: row;
+  width: 327px;
+  height: 56px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.05);
+  background-color: #ffffff;
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-top: 16px;
+}
+
+.container > .container_8 > .rectangle_6
+{
+   width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: #00d793;
+  margin-top: 8px;
+  margin-left: 8px;
+  margin-bottom: 8px;
+  position: relative;
+}
+.container > .container_8 > .rectangle_6 > .shape_2
+{
+  width: 16px;
+  height: 16px;
+  color: #ffffff;
+  position: absolute;
+  margin-top: 11px;
+  margin-left: 13px;
+}
+
+
+.container > .container_8 > .Shell
+{
+  width: 154px;
+  height: 22px;
+  font-family: Avenir;
+  font-size: 16px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.4px;
+  color: #042c5c;
+  margin-left: 17px;
+  margin-top: 8px;
+  position: relative;
+}.container_8 > .Monday-June
+{
+  width: 120px;
+  height: 18px;
+  font-family: Avenir-Roman;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.27px;
+  color: #77869e;
+  position:absolute;
+  margin-top: 30px;
+  margin-left: 65px;
+} 
+.container_8 > .price_35 {
+  width: 75px;
+  height: 22px;
+  font-family: Avenir;
+  font-size: 16px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.4px;
+  color: #ee5a55;
+  margin-top: 17px;
+  margin-bottom: 17px;
+  /* margin-right:24px; */
+}
